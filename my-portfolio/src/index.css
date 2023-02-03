@@ -23,15 +23,13 @@
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
-
-    
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-::webkit-scrollbar {
+::-webkit-scrollbar {
     display: none;
 }
 
