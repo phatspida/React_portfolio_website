@@ -18,7 +18,7 @@ const Nav = () => {
       <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact'? 'active' : ''}><MdOutlineWifiCalling3 /></a>
 
     </nav>
-  )
+  ) 
 }
 
 export default Nav

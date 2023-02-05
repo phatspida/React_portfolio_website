@@ -54,6 +54,8 @@
 
     .experience__content {
         padding: 1rem;
+        column-gap: 3rem;
+        justify-items: center;
     }
 }
 
