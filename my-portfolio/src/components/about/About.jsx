@@ -13,27 +13,27 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+            <img src={ME} alt="About" />
           </div>
         </div>
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <a href=""></a>
+              {/*<a href=""></a>*/}
               <FaAward className='about-icon'/>
               <h5>Experience</h5>
               <small>3+ years</small>
             </article>
 
             <article className="about__card">
-              <a href=""></a>
+              {/*<a href=""></a>*/}
               <FiUsers className='about-icon'/>
               <h5>Clients</h5>
               <small>200+ Worldwide</small>
             </article>
 
             <article className="about__card">
-              <a href=""></a>
+              {/*<a href=""></a>*/}
               <VscFolderLibrary className='about-icon'/>
               <h5>Projects</h5>
               <small>80+ Completed</small>
@@ -41,10 +41,8 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Odio unde suscipit ratione placeat libero, ipsam eaque aut 
-            voluptatum perferendis dolore, iure pariatur praesentium nemo 
-            reiciendis sed maxime accusantium fugit sequi.
+            A dynamic Fullstack Engineer with sound technical expertise on use of Python, JavaScript, Node, React and Agile(Scrum) software development protocols having vast experience on the architecture and development of  web applications for corporate institutions and organizations. 
+            Highly organized and business oriented self-starter  with an eye for user-centric designs adept in developing state-of-the-art technologies  while paying close attention to efficiency.
           </p>
 
           <a href="#contact" className='btn btn_primary'>Let's Talk</a>

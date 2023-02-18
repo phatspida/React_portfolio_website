@@ -11,42 +11,21 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'My First Portfolio Work',
+    title: 'Task-Tracker Web Application (Props, Components, useState, useEffect, React-Icons, RESTful API) - React',
     github: 'https://github.com',
     demo: 'https://github.com'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'My First Portfolio Work',
+    title: 'Commercial Ecommerce Website (User Authentication, FetchAPI, RESTful API gateway, Customised Backend and Payments Enabled) - Django',
     github: 'https://github.com',
     demo: 'https://github.com'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'My First Portfolio Work',
-    github: 'https://github.com',
-    demo: 'https://github.com'
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'My First Portfolio Work',
-    github: 'https://github.com',
-    demo: 'https://github.com'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'My First Portfolio Work',
-    github: 'https://github.com',
-    demo: 'https://github.com'
-  },
-  {
-    id: 6, 
-    image: IMG6,
-    title: 'My First Portfolio Work',
+    title: 'Personal Blog Web Application (Secured Authentication Enabled, Customised Backend, CRUD functionality) - Django',
     github: 'https://github.com',
     demo: 'https://github.com'
   },
@@ -66,7 +45,7 @@ const Portfolio = () => {
                 <div className="portfolio__item-image">
                   <img src={image} alt={title} />
                 </div>
-                <h3>This is a portfolio</h3>
+                <h3>{title}</h3>
                 <div className="portfolio__item-cta">
                   <a href={github} className='btn' target='_blank'>Github</a>
                   <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
