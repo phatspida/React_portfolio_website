@@ -3,7 +3,7 @@ import './testimonials.css'
 import AVTR1 from '../../assets/pic1.jpg'
 import AVTR2 from '../../assets/pic2.jpg'
 import AVTR3 from '../../assets/pic3.png'
-import AVTR4 from '../../assets/pic4.jpg'
+import AVTR4 from '../../assets/pic15.jpg'
 
 import { Pagination} from 'swiper';
 
@@ -22,7 +22,7 @@ const data = [
   },
   {
     avatar: AVTR2,
-    name: 'Brock Lesner',
+    name: 'Kunle Otunba',
     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste, error nam sed aut architecto et minima ex, sequi neque voluptatibus placeat maxime unde in quas quos? Culpa, quos earum.'
   },
   {
