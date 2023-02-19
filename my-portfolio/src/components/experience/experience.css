@@ -66,8 +66,8 @@
     }
 
     .experience__container > div {
-        width: var(--container-width-sm);
-        padding: 1rem 0.5rem;
+        width: 95%;
+        padding: 2rem 0.7rem 2rem;
     }
 
     .experience__content {
