@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/pic3.jpg'
+import IMG1 from '../../assets/pic3.png'
 import IMG2 from '../../assets/pic4.jpg'
 import IMG3 from '../../assets/pic5.jpg'
 import IMG4 from '../../assets/pic6.jpg'
@@ -12,7 +12,7 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Task-Tracker Web Application (Props, Components, useState, useEffect, React-Icons, RESTful API) - React',
-    github: 'https://github.com',
+    github: 'https://github.com/phatspida/tast-tracker',
     demo: 'https://github.com'
   },
   {
