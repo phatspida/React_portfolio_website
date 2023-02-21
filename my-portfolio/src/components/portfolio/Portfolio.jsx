@@ -10,21 +10,21 @@ const data = [
     image: IMG1,
     title: 'Task-Tracker Web Application (Props, Components, useState, useEffect, React-Icons, RESTful API) - React',
     github: 'https://github.com/phatspida/tast-tracker',
-    demo: 'https://github.com'
+    //demo: 'https://github.com'
   },
   {
     id: 2,
     image: IMG2,
     title: 'Commercial Ecommerce Website (User Authentication, FetchAPI, RESTful API gateway, Customised Backend and Payments Enabled) - Django',
     github: 'https://github.com',
-    demo: 'https://github.com'
+    //demo: 'https://github.com'
   },
   {
     id: 3,
     image: IMG3,
     title: 'Personal Blog Web Application (Secured Authentication Enabled, Customised Backend, CRUD functionality) - Django',
-    github: 'https://github.com',
-    demo: 'https://github.com'
+    github: 'https://github.com/phatspida/Blog_Web_App',
+    //demo: 'https://github.com'
   },
 ]
 
